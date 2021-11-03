@@ -1,0 +1,35 @@
+.border-box{
+    border: 1px solid #666666;
+    width: 500px;
+    height: 500px;
+    background-color: #9A9A9A;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-container{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 90%;
+    border: 1px solid #333333;
+    margin-top: 5%;
+    position: relative;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px dashed pink;
+}
+
+.radiusInputText{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    border: 0px solid;
+    text-align: center;    
+}
